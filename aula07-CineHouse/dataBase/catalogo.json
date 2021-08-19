@@ -1,0 +1,28 @@
+{
+    "filmes": [
+        {
+            "codigo": 1,
+            "titulo": "Lágrimas do sol",
+            "duracao": 1.20,
+            "atores": [
+                "Bruno",
+                "João",
+                "Joana"
+            ],
+            "anoDeLancamento": 2005,
+            "emCartaz": true
+        },
+        {
+            "codigo": 2,
+            "titulo": "Homens de preto",
+            "duracao": 1.40,
+            "atores": [
+                "Will",
+                "Smith",
+                "Victor"
+            ],
+            "anoDeLancamento": 2008,
+            "emCartaz": false
+        }
+    ]
+}

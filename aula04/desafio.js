@@ -1,0 +1,18 @@
+const {differenceInDays, ifferenceInMonths, addDays} = require('date-fns')
+const moment = require('moment')
+//1)
+let dataIniEx1 = new Date(2010, 09, 15)
+let dataFimEx1 = new Date(2020, 06, 10)
+let resultadoItem1 = differenceInDays(dataFimEx1, dataIniEx1)
+console.log('A diferença de dias entre as datas é: ' + resultadoItem1)
+
+//2)
+let dataIniEx2 = new Date(2011, 08, 15)
+let dataFimEx2 = new Date(2021, 05, 28)
+let resultadoItem2 = differenceInMonths(dataFimEx2, dataIniEx2)
+console.log('A diferença de meses entre as datas é: ' + resultadoItem2)
+
+//3)
+let dataEx3 = new Date(2021,02, 20)
+let resultadoItem3 = addDays(dataEx3, 32)
+console.log('A data após adicionarmos 32 dias é: '+ resultadoItem3)
